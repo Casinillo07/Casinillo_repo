@@ -47,4 +47,10 @@ class Student {
    suffix = suffix;
    }
    
+   
+  //Custom Methods/Computed Properties
+  public String getFullName(){
+   return first_name+" "+middle_name+" "+last_name+" "+suffix;
+   }
+   
 }
